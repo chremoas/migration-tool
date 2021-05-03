@@ -15,5 +15,5 @@ done
 sed -i 's/,$/,""/g' chremoas-aba/characters.csv
 sed -i 's/NULL//g' chremoas-aba/corporations.csv
 
-psql -h localhost -U postgres -d chremoas_aba -f insert.sql
-psql -h localhost -U postgres -d chremoas_aba -f fix_sequence.sql
+#psql -h localhost -U postgres -d chremoas_aba -f insert.sql
+#psql -h localhost -U postgres -d chremoas_aba -f fix_sequence.sql
